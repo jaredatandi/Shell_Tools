@@ -4,11 +4,11 @@ The scripts used here are to help me automate repetitive tasks
 ## Tecnology use
 * Bash
 
-# The Tools
+## The Tools
 
 | Tool      | Description
 | ----------| ----------
-| `build`| A tool that compiles C programs with all the necessary flags and warnings. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89`
+| `build`| A tool that compiles C programs with all the necessary flags and warnings. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89`. It takes at least one argument and gives an error if no argument is passed. The script was inspired by `betty` script used by ALX and created by[Holberton school](https://github.com/holbertonschool/Betty)
 
 ## Known bugs.
 The script `build` does not give an error message
