@@ -3,6 +3,9 @@ The scripts used here are to help me automate repetitive tasks
 
 ## Tecnology use
 * Bash
+
+# The Tools
+
 | Tool      | Description
 | ----------| ----------
 | `build`| A tool that compiles C programs with all the necessary flags and warnings. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89`
