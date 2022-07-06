@@ -6,7 +6,7 @@ if [ "$#" = "0" ]; then
 fi
 
 for argument in "$@" ; do
-	echo -e "\n*********Compiling**************"
+	echo -e "\n*********Compiling $argument **************"
 	gcc -Wall -pedantic -Werror -Wextra -std=gnu89 "$argument"
 	echo -e "\n*********Compiled successfully***"
 done
