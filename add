@@ -1,0 +1,9 @@
+if [ "$#" = "0" ]; then
+	echo "No file to add"
+	exit 1
+fi
+
+for argument in "$@" ; do
+	echo "adding file $argument"
+	git add $argument
+done
