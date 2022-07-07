@@ -14,6 +14,7 @@ The scripts used here are to help me automate repetitive tasks
 |`commit`| A tool to replace `git commit -m` ensures I comment the file name correctly
 |`update`| A tool to replace `git commit -m` update message with `git commit -m` update *file name*
 |`push`| A tool to replace `git push`
+|`clean`| A tool to remove trailling while space created by [Osala](https://github.com/osala-eng/alx_tools/blob/master/cleanbetty.sh)
 
 ## Known bugs.
 The script `build` does not give an error message
